@@ -95,23 +95,26 @@ my_num2 = 2223
 my_result = my_num2 == my_num
 print(my_result)
 
-# so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+#so we can see if we can make logical decisions if something is true or not
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
-
+num = 17834/34 
+num1 = 87*56
+result = num > num1
+print(result)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
 
